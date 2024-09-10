@@ -1,7 +1,9 @@
 <template>
-    <NuxtLayout>
-        <NuxtPage />
-    </NuxtLayout>
+    <v-app>
+        <div :class="$style.index">
+            <slot />
+        </div>
+    </v-app>
 </template>
 
 <style lang="scss" module>
